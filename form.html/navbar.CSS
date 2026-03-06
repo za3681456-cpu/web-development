@@ -1,0 +1,65 @@
+/* body style */
+body{
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+/* top navbar */
+.navbar1{
+    background-color: yellow;
+    padding: 15px;
+}
+
+.navbar1 a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* paragraphs */
+.para1{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.para2{
+    background-color: bisque;
+    padding: 10px;
+}
+
+/* vertical navbar */
+.navbar2{
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.navbar2 li{
+    border-bottom: 1px solid white;
+}
+
+.navbar2 li a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar2 li a:hover{
+    background-color: gray;
+}
+
+/* form */
+form{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+/* heading */
+h2{
+    color: darkblue;
+}
