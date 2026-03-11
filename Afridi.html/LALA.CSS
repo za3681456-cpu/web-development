@@ -1,0 +1,123 @@
+/* Page Background */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(173, 173, 239);
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+/* Navigation Bar */
+.navbar{
+    background:#1a1a2e;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+/* Logo */
+.logo{
+    margin:0;
+    color:#ffffff;
+}
+
+/* Nav Links */
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+.nav-links li{
+    display:inline;
+}
+
+.nav-links a{
+    color:#e0e0e0;
+    text-decoration:none;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#ffcc70;
+}
+
+/* Form Title */
+h2{
+    margin-top:30px;
+    color:white;
+}
+
+/* Form Container */
+form{
+    background:#ffffff;
+    width:420px;
+    margin:30px auto;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    text-align:left;
+}
+
+/* Form Group */
+.form-group{
+    margin-bottom:15px;
+}
+
+/* Labels */
+label{
+    font-weight:bold;
+    display:block;
+    margin-bottom:5px;
+    color:#333;
+}
+
+/* Inputs */
+input, textarea, select{
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #dcdcdc;
+    font-size:14px;
+}
+
+/* Radio and Checkbox */
+input[type="radio"], input[type="checkbox"]{
+    width:auto;
+    margin-right:5px;
+}
+
+/* Buttons */
+input[type="submit"], input[type="reset"]{
+    width:48%;
+    border:none;
+    padding:10px;
+    margin-top:10px;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* Submit Button */
+input[type="submit"]{
+    background:#270fdd;
+    color:white;
+}
+
+/* Reset Button */
+input[type="reset"]{
+    background:#e73030;
+    color:white;
+}
+
+/* Hover Effects */
+input[type="submit"]:hover{
+    background:#270cf7;
+}
+
+input[type="reset"]:hover{
+    background:#f30707;
+}
