@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Comparison Example</title>
+
+<!-- External CSS link -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Internal CSS -->
+<style>
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: green;
+    }
+
+    /* Using !important */
+    .important-text {
+        color: purple !important;
+    }
+</style>
+
+</head>
+
+<body>
+
+<h1>CSS Comparison Example</h1>
+
+<!-- Inline CSS Example -->
+<p style="color: red;">
+This is Inline CSS (Red color)
+</p>
+
+<!-- Internal CSS Example -->
+<p>
+This is Internal CSS (Green color from style tag)
+</p>
+
+<!-- External CSS Example -->
+<p class="external">
+This is External CSS (Color comes from style.css file)
+</p>
+
+<!-- !important Example -->
+<p class="important-text" style="color: orange;">
+This text uses !important so it stays Purple (not Orange)
+</p>
+
+</body>
+</html>
