@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model and Display Property</title>
+
+<style>
+
+body{
+    font-family: Arial;
+}
+
+
+.box{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+    background-color: lightblue;
+}
+
+
+
+.block-example{
+    display: block;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.inline-example{
+    display: inline;
+    background-color: pink;
+}
+
+.inline-block-example{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: orange;
+    margin: 10px;
+}
+
+
+.hide-example{
+    display: none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CSS Box Model Example</h1>
+
+<div class="box">
+This box shows the CSS Box Model.
+It has margin, border, padding and content area.
+</div>
+
+
+<h1>CSS Display Property Example</h1>
+
+<h2>Block Example</h2>
+
+<div class="block-example">Block Element 1</div>
+<div class="block-example">Block Element 2</div>
+
+
+<h2>Inline Example</h2>
+
+<span class="inline-example">Inline 1</span>
+<span class="inline-example">Inline 2</span>
+
+
+<h2>Inline-Block Example</h2>
+
+<div class="inline-block-example">Box 1</div>
+<div class="inline-block-example">Box 2</div>
+
+
+<h2>Display None Example</h2>
+
+<p class="hide-example">
+This text is hidden using display: none
+</p>
+
+<p>This text is visible.</p>
+
+
+</body>
+</html>
