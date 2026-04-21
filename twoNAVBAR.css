@@ -1,0 +1,41 @@
+/* Top Navigation Bar using ID */
+
+#topnav {
+    background-color: black;
+    padding: 15px;
+}
+
+#topnav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Left Navigation Bar using CLASS */
+
+.leftnav {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 150px;
+    height: 100%;
+    background-color: gray;
+    padding-top: 20px;
+}
+
+.leftnav a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/* Page Content Styling */
+
+.content {
+    margin-left: 170px;
+    padding: 20px;
+}
