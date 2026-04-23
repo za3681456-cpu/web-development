@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Assignment</title>
+
+<style>
+
+
+body{
+background-color:#f0f8ff; /* HEX color */
+background-image:url("https://www.w3schools.com/css/img_tree.png");
+background-repeat:no-repeat;
+background-size:200px;
+background-attachment:fixed;
+background-position:right bottom;
+}
+
+
+h1{
+color:rgb(255,0,0);
+text-align:center;
+}
+
+
+p{
+color:hsl(200,80%,40%);
+}
+
+
+.box1{
+background-color:rgba(0,255,0,0.4);
+border:3px solid black;
+margin:20px;
+padding:20px;
+width:300px;
+height:100px;
+}
+
+
+.border-style{
+border-style:dashed;
+border-width:5px;
+border-color:blue;
+padding:10px;
+margin:10px;
+}
+
+
+.size-box{
+background-color:lightblue;
+width:50%;
+min-width:200px;
+max-width:500px;
+height:100px;
+margin:20px;
+padding:20px;
+}
+
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+background-color:black;
+overflow:hidden;
+}
+
+li{
+float:left;
+}
+
+li a{
+display:block;
+color:white;
+padding:14px 20px;
+text-decoration:none;
+}
+
+
+li a:hover{
+background-color:red;
+}
+
+
+table{
+border-collapse:collapse;
+width:60%;
+margin:20px;
+}
+
+th, td{
+border:1px solid black;
+padding:10px;
+text-align:center;
+}
+
+
+tr:nth-child(even){
+background-color:#f2f2f2;
+}
+
+
+.float-box{
+width:30%;
+height:120px;
+float:left;
+margin:10px;
+background-color:lightgreen;
+text-align:center;
+line-height:120px;
+border:2px solid green;
+}
+
+
+.clear{
+clear:both;
+}
+
+
+.shadow-box{
+width:300px;
+height:100px;
+background-color:white;
+margin:20px;
+padding:20px;
+box-shadow:5px 5px 10px gray;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CSS Assignment Example</h1>
+
+<p>This paragraph uses HSL color.</p>
+
+<div class="box1">
+RGBA Color Box Example
+</div>
+
+<div class="border-style">
+Border Style Example
+</div>
+
+<div class="size-box">
+Width Height Min Max Example
+</div>
+
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Services</a></li>
+</ul>
+
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Course</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Zeeshan</td>
+<td>Web Development</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Hamza</td>
+<td>PHP</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Ali</td>
+<td>CSS</td>
+</tr>
+
+</table>
+
+
+<div class="float-box">Box 1</div>
+<div class="float-box">Box 2</div>
+<div class="float-box">Box 3</div>
+
+<div class="clear"></div>
+
+
+<div class="shadow-box">
+Box Shadow Example
+</div>
+
+</body>
+</html>
